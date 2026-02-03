@@ -1,0 +1,19 @@
+# For examples, see the Awesome Compose repository:
+# https://github.com/docker/awesome-compose
+services:
+  client-dev:
+    build: 
+      context: .
+      target: dev
+    environment:
+      NODE_ENV: development
+    ports:
+      - 8080:8080
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /app
+          ignore:
+            - .git
+            - node_modules
