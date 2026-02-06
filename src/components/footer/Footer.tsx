@@ -1,23 +1,26 @@
 import logo_1 from '@assets/logo_1.png';
+import grupoLegal from '@assets/grupo-legal.png';
 
 const Heading = () => {  
 
   return(
     <div className="footer">
-      <div className="footer__logo">
+      <button 
+        className="footer__logo" 
+        onClick={() => globalThis.window.scrollTo(0,0)}
+      >
         <img src={logo_1} alt={'kredit logo'} />
-      </div>
+      </button>
       <div className="footer__text u-mt-10">
         <p className="label u-center-text blue">
             m<span className="label orange"><i className='bi bi-virus2'></i></span>ra
           </p>
-        <p className="label u-center-text blue">Un producto de L&L Abogados</p>
+        <p className="label u-center-text blue">Un producto de L&L Grupo Legal</p>
         <p className="label u-center-text">©2025 All rights reserved</p>
       </div>
       <div className="footer__socials">
-        
-        <a href="https://www.linkedin.com/company/kredit-app/" target="_blank" rel="noreferrer">
-          <i className="bi-linkedin"></i>
+        <a href="https://www.llgrupolegal.com" target="_blank" rel="noreferrer">
+          <img className="card-default__icon" src={grupoLegal} alt='' />
         </a>
       </div>
     </div>

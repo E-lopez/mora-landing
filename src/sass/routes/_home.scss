@@ -8,7 +8,6 @@
     width: 100%;
     scroll-snap-type: y mandatory;
     transition: background-size 0.3s ease;
-    overflow: hidden;
     & div {
         scroll-snap-align: start;
     }

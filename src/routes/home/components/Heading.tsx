@@ -2,10 +2,11 @@ import Brand from "@/components/brand/brand";
 import { useEffect, useState } from "react";
 
 const labels = [
-  {label: 'más fácil', color: 'white', bg: '#6d98cc'},
-  {label: 'más rápido', color: 'gray', bg: '#6dbcccff'},
-  {label: 'más simple', color: 'white', bg: '#cc6d6dff'},
-  {label: 'legal y eficiente', color: 'gray', bg: '#ffb347'},
+  {label: 'Contratos incumplidos', color: 'white', bg: '#6d98cc'},
+  {label: 'Deudas en mora', color: 'gray', bg: '#6dbcccff'},
+  {label: 'Cuentas de cobro', color: 'white', bg: '#cc6d6dff'},
+  {label: 'Facturas vencidas', color: 'gray', bg: '#ffb347'},
+  {label: 'Y más...', color: 'gray', bg: '#6dbcccff'},
 ];
 
 const Heading = () => {  

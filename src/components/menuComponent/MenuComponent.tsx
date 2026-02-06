@@ -13,22 +13,11 @@ const MenuComponent: React.FC<{showModal: boolean, toggleMenu: () => void}> = ({
       </div>
       <div className="menu__link-list">
         <Link to="que-es-kredi" onClick={toggleMenu} className="heading-primary heading-primary--general blue">Qué Es mora</Link>
-        <Link to="pricing" onClick={toggleMenu} className="heading-primary heading-primary--general u-mb-20 blue">Precios</Link>
-        <Link to="faqs" onClick={toggleMenu} className="heading-primary heading-primary--general blue">QA's</Link>
+        <Link to="pricing" onClick={toggleMenu} className="heading-primary heading-primary--general blue">Precios</Link>
+        <Link to="faqs" onClick={toggleMenu} className="heading-primary heading-primary--general blue">Faq's</Link>
       </div>
     </div>
   )
 }
 
 export default MenuComponent;
-
-
-// Freelancers owed money
-
-// Small business suppliers
-
-// Informal lenders
-
-// P2P / family loans with written proof
-
-// Presión legal formal, extrajudicial, con abogado.

@@ -1,6 +1,6 @@
 const WhatsAppTemplates = new Map()
 
 WhatsAppTemplates
-.set('MAIN_NUMBER', '3052786077')
-.set('MAIN_MESSAGE', 'Hola%2C%20quiero%20un%20pr%C3%A9stamo%20con%20kredi.')
+.set('MAIN_NUMBER', '3242118861')
+.set('MAIN_MESSAGE', 'Hola%21%20Quiero%20empezar%20a%20recuperar%21')
 export default WhatsAppTemplates;

@@ -11,9 +11,9 @@ const Faqs = () => {
   return(
      <div className="corporate-content corporate-content--orange">
       <div className="corporate-content__info">
-        <h1 className='u-center-text heading-primary'>Nuestros precios</h1>
+        <h1 className='u-center-text heading-primary'>Preguntas Frecuentes</h1>
         <h2 className="paragraph paragraph--sm u-center-text u-mt-10 u-mb-20 gray">
-          Pagas una sola vez y dejamos todo listo para presionar legalmente al deudor. Todo con respaldo de abogados.
+          Resuelve tus dudas más comunes sobre nuestro servicio.
         </h2>
       </div>
         
