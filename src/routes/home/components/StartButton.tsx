@@ -25,7 +25,7 @@ const StartButton = () => {
       href={`https://wa.me/${number}?text=${message}`}
     >
       <img src={icon} alt='' />
-      <p>Comienza aquí!</p>
+      <p>Evaluar mi caso gratis!</p>
     </a>
   )
 }

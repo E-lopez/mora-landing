@@ -5,7 +5,7 @@
   justify-content: center;
   position: fixed;
   left: 50%;
-  top: 92%;
+  top: 82%;
   width: 65%;
   height: 7rem;
   transform: translate(-50%, -50%);
@@ -30,12 +30,12 @@
   .start-button {
     left: 50%;
     top: 85%;
-    width: 23rem;
+    width: 28rem;
     height: 5rem; 
-    gap: 1rem;
+    gap: 0.5rem;
     & > p {
        font-weight: 600;
-       font-size: 1.8rem;
+       font-size: 2rem;
     }
     & > img {
       height: 4rem;

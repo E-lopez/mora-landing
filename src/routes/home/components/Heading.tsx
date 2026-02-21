@@ -24,18 +24,16 @@ const Heading = () => {
     <div className="heading-container">
       <div className="heading-box">
         <div className="heading-box__child">
-          <h2 className="heading-primary heading-primary--caption u-center-text blue u-mb-10">
-            Recupera cartera <br/><span className="orange">sin demandas ni procesos.</span> 
+          <h2 className="heading-primary heading-primary--caption u-center-text blue">
+            Convierte tu cartera vencida <span className="orange">en una gestión formal de cobro</span> 
           </h2>
-
-          <div className="heading-box__sub" style={{backgroundColor: header.bg}}>
+          <h2 className="paragraph paragraph--lg u-center-text u-mt-10 gray">
+            Con respaldo jurídico y presión estratégica documentada
+          </h2>
+          <div className="heading-box__sub u-mt-10" style={{backgroundColor: header.bg}}>
             <h2 className={`paragraph paragraph--lg u-center-text ${header.color}`}>{header.label}</h2>
           </div>
-
           <Brand animated={true} />
-          <h2 className="paragraph paragraph--md u-center-text u-mb-20 gray">
-            Cobranza pre-jurídica express
-          </h2>
         </div>
       </div>
     </div>

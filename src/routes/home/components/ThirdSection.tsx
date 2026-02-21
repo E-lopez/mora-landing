@@ -7,9 +7,9 @@ const ThirdSection = () => {
       <div className="third-section__box">
         <div className="third-section__header">
           <h2 
-          className="heading-sub u-right-text u-mt-30">¿Por qué logramos resultados?</h2>
+          className="paragraph paragraph--xl blue u-right-text u-mt-30">¿Cómo lo hacemos?</h2>
           <h1
-            className="paragraph paragraph--xl gray u-right-text u-mt-20"
+            className="paragraph paragraph--lg gray u-right-text u-mt-20"
           >
             <span>m<span className="blue"><i className='bi bi-virus2'></i></span>ra</span> combina presión legal, foco y velocidad.
           </h1>
@@ -34,7 +34,7 @@ const ThirdSection = () => {
         </div>
         <div className="container u-mb-30">
         <p className="paragraph paragraph--lg u-center-text u-mt-30 u-mb-30">
-          Porque el tiempo cuesta, actuamos con eficiencia.
+          Nos encargamos de todo. Tu solo te enfocas en tu negocio.
         </p>
       </div>
       </div>

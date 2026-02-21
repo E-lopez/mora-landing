@@ -6,14 +6,14 @@ export const startButton = (...args: any): void => {
   const buttonTop = query === 'sm' ? '95%' : '90%'
 
   if(scrolledProp <= 0.003 && scrollDir) {
-    paragraph.style.fontSize = '1.6rem';
-    paragraph.style.margin = '0 1rem';
+    paragraph.style.fontSize = '2rem';
+    paragraph.style.margin = '0rem';
     paragraph.style.transition = 'all .5s';
 
     button.style.color = '#000';
-    button.style.top = '79%';
-    button.style.gap = '1rem';
-    button.style.width = '23rem';
+    button.style.top = '82%';
+    button.style.gap = '.5rem';
+    button.style.width = '28rem';
     button.style.left = '50%';
     button.style.transform = 'translate(-50%, 50%)';
     button.style.transition = 'all .5s ease-out allow-discrete';

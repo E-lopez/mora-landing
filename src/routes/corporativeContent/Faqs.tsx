@@ -41,7 +41,7 @@ const Faqs = () => {
           className="base-button base-button__button base-button__button--green u-mt-30 u-mb-30" 
           href={`https://wa.me/${number}?text=${message}`}
         >
-          <p className="label">¡Empieza aquí!</p>
+          <p className="label">Evaluar mi caso gratis!</p>
         </a>
       </div>
     </div>

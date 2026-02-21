@@ -4,6 +4,7 @@ import ThirdSection from "./components/ThirdSection";
 import StartButton from "./components/StartButton";
 import useScrollToTop from "@/hooks/domEvents/useScrollToTop";
 import SecondSectionB from "./components/SecondSectionB";
+import FourthSection from "./components/FourthSection";
 
 
 const Home = () => {  
@@ -13,6 +14,7 @@ const Home = () => {
     <div className="home-container">
       <Heading />
       <SecondSectionB />
+      <FourthSection />
       <ThirdSection />
       <Footer />
       <StartButton />

@@ -1,5 +1,6 @@
 @import '../routesComponents/home/secondSection';
 @import '../routesComponents/home/thirdSection';
+@import '../routesComponents/home/fourthSection';
 @import '../routesComponents/home/textCards';
 @import '../routesComponents/home/startButton';
 
@@ -26,12 +27,11 @@
 .heading-box {
     display: flex;
     background-color: $soft-mint;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     position: relative;
-    border-top-left-radius: 25%;
-    border-bottom-right-radius: 75px;
     box-shadow: 0 0 15px rgba(0,0,0,.3);
+    padding: 0 2rem;
 
     &__child {
         display: flex;
@@ -62,9 +62,7 @@
 // Media Queries
 @media screen and (width > 768px) {
     .heading-box {
-        height: 70vh;
-        border-top-left-radius: 25%;
-        border-bottom-right-radius: 75px;
+        height: 100vh;
 
         &__child {
             width: 40vw;

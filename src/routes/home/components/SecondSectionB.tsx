@@ -5,13 +5,10 @@ const SecondSectionB = () => {
   return(
     <section id="test" className='second-section'>
       <h1 className='paragraph paragraph--xxl u-center-text orange'>¡Actuamos en 30 días!</h1>
-      <h2 className="paragraph paragraph--lg u-mt-10 gray">
-        El proceso tiene {content.steps.length} pasos.
-      </h2>
 
       {content.steps.map((step, index) => (
         <div 
-          className="card-default"
+          className="card-default u-mt-30"
           key={step.title+index}
         >
           <div className={`card-default__box ${(index + 1) % 3 === 0 ? step.class : ''}`}>
@@ -25,12 +22,7 @@ const SecondSectionB = () => {
             <p className="paragraph paragraph--md">{step.legend}</p>
           </div>
         </div>
-      ))}
-
-      <div className="container u-mb-30">
-
-        <p className="paragraph paragraph--xl u-center-text u-mt-30">Cuidamos lo que es tuyo.</p>
-      </div>        
+      ))}     
     </section>
   )
 }

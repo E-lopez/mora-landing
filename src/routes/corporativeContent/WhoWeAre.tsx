@@ -26,14 +26,14 @@ const WhoWeAre = () => {
           <p className="paragraph paragraph--sm u-center-text u-pr-20 u-pl-20">Parece más costoso iniciar un proceso de cobranza que recuperar la deuda.</p>
         </div>
         
-        <p className="paragraph paragraph--sm u-center-text u-mt-20">De ahí nació <span>m<span className="blue"><i className='bi bi-virus2'></i></span>ra</span>, <strong>3 años evitando procesos judiciales.</strong></p>
+        <p className="paragraph paragraph--sm u-center-text u-mt-20">De ahí nació <span>m<span className="blue"><i className='bi bi-virus2'></i></span>ra</span>, <strong>expertos en recuperación de cartera.</strong></p>
       </div>
       <div className="base-button-wrap">
         <a 
           className="base-button base-button__button base-button__button--green u-mt-30 u-mb-30" 
           href={`https://wa.me/${number}?text=${message}`}
         >
-          <p className="label">¡Empieza aquí!</p>
+          <p className="label">¡Evaluar mi caso gratis!</p>
         </a>
       </div>
     </div>
